@@ -1,0 +1,288 @@
+/* exter small device */
+@media (Min-width: 320px) and (Max-width:575px) {
+
+    /* slider */
+    .slider-heading h2 {
+        font-size: 30px !important;
+        margin: 0 !important;
+    }
+
+    .slider-btn a {
+        padding: 5px 10px !important;
+        font-size: 12px !important;
+    }
+
+    .slider-txt  {
+        margin-bottom: 0px !important;
+    }
+
+    .slider-txt p {
+        font-size: 10px !important;
+        margin: 0 !important;
+    }
+
+    .slider-txt p {
+        font-size: 18px !important;
+    }
+
+    /* section 7 */
+    .cir-title h2 {
+        font-size: 23px !important;
+    }
+
+    .cir-title p {
+        font-size: 14px !important;
+    }
+
+    /* about page */
+    .abt {
+        font-size: 20px !important;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+/* small device */
+@media (Min-width:576px) and (Max-width:767px) {
+
+    /* slider */
+    .slider-heading h2 {
+        font-size: 30px !important;
+    }
+
+    .slider-txt p {
+        font-size: 18px !important;
+    }
+
+
+
+    /* section 2 */
+    .se-title h4 {
+        font-size: 17px !important;
+    }
+
+    .se-disp p {
+        font-size: 15px !important;
+    }
+
+    .s2-heading h2 {
+        font-size: 24px !important;
+    }
+
+    .s2-disp {
+        font-size: 15px !important;
+    }
+
+    /* section 3 */
+    .si-title h2 {
+        font-size: 23px !important;
+    }
+
+    .si-disp p {
+        font-size: 16px;
+    }
+
+    /* section 4 */
+    .pc-title h3 {
+        font-size: 18px !important;
+    }
+
+    .pc-disp p {
+        font-size: 15px !important;
+    }
+
+    .list li {
+        font-size: 16px !important;
+    }
+
+    /* section 5 */
+    .cus-title h2 {
+        font-size: 24px !important;
+    }
+
+    .cus-title p {
+        font-size: 16px !important;
+    }
+
+    /* section 7 */
+    .cir-title h2 {
+        font-size: 23px !important;
+    }
+
+    .cir-title p {
+        font-size: 14px !important;
+    }
+
+}
+
+
+
+
+/* medium device */
+@media (Min-width:768px) and (Max-width:991px) {
+
+    /* slider */
+    .slider-heading h2 {
+        font-size: 40px !important;
+    }
+
+    .slider-txt p {
+        font-size: 20px !important;
+    }
+
+
+    /* section 2 */
+    .se-title h4 {
+        font-size: 28px !important;
+    }
+
+    .se-disp p {
+        font-size: 20px !important;
+    }
+
+    .s2-heading h2 {
+        font-size: 40px !important;
+    }
+
+    .s2-disp {
+        font-size: 26px !important;
+    }
+
+    /* section 3 */
+    .si-title h2 {
+        font-size: 40px !important;
+    }
+
+    .si-disp p {
+        font-size: 28px;
+    }
+
+    /* section 4 */
+    .pc-title h3 {
+        font-size: 40px !important;
+    }
+
+    .pc-disp p {
+        font-size: 28px !important;
+    }
+
+    /* section 4 */
+    .cap-info h3 {
+        font-size: 31px !important;
+    }
+
+    .cap-info p {
+        font-size: 26px !important;
+    }
+
+    .list li {
+        font-size: 28px !important;
+    }
+
+    /* section 5 */
+    .cus-title h2 {
+        font-size: 40px;
+    }
+
+    .cus-title p {
+        font-size: 28px;
+    }
+
+    /* section 6 */
+    .rev-title h2 {
+        font-size: 40px !important;
+    }
+
+    .rev-title p {
+        font-size: 28px !important;
+    }
+
+    /* section 7 */
+    .cir-title h2 {
+        font-size: 48px !important;
+    }
+
+    .cir-title p {
+        font-size: 28px !important;
+    }
+}
+
+
+
+
+/* large device */
+@media (Min-width:992px) and (Max-width:1199px) {
+
+    /* section 2 */
+    .se-title h4 {
+        font-size: 14px !important;
+    }
+
+    .se-disp p {
+        font-size: 12px !important;
+    }
+
+    .s2-heading h2 {
+        font-size: 23px !important;
+    }
+
+    .s2-disp {
+        font-size: 12px !important;
+    }
+
+    /* section 3 */
+    .si-title h2 {
+        font-size: 23px !important;
+    }
+
+    .si-disp p {
+        font-size: 14px;
+    }
+
+    .team-info h2 {
+        font-size: 20px !important;
+    }
+
+    .team-info p {
+        font-size: 14px !important;
+    }
+
+    /* section 4 */
+    .cap-info h3 {
+        font-size: 16px !important;
+    }
+
+    .cap-info p {
+        font-size: 12px !important;
+    }
+
+    .list li {
+        font-size: 13px !important;
+    }
+
+    /* section 6 */
+    .rev-title h2 {
+        font-size: 23px !important;
+    }
+
+    .rev-title p {
+        font-size: 14px !important;
+    }
+
+    /* section 7 */
+    .cir-title h2 {
+        font-size: 23px !important;
+    }
+
+    .cir-title p {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:1200px) {
+    .corpo {
+        margin-top: -160px;
+    }
+}
