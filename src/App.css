@@ -1,38 +1,702 @@
-.App {
-  text-align: center;
+/* default css */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+a
+{
+    text-decoration: none !important;
+    display: inline-block;
+}
+button
+{
+    border: none;
+}
+.bg-clr
+{
+    background-color: #063f84;
+}
+.flex
+{
+    display: flex;
+}
+.font
+{
+    font-size: 26px;
+}
+.white
+{
+    color: #ffffff;
+}
+.clr
+{
+    color: #616161;
+}
+.sclr
+{
+    color: #666666;
+}
+.pad1
+{
+    padding: 50px 0px 80px 0px;
+}
+.pad2
+{
+    padding: 60px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* header css */
+.header
+{
+    background-color: white;
+    /* position: fixed; */
+    /* z-index: 3; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* top: 0%; */
+    /* left: 0%; */
+}
+.head-box
+{
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary
+{
+    background-color: white !important;
+    border: none !important;
+}
+.head-manu
+{
+    height: 100%;
+}
+.right-head 
+{
+    align-items: center;
+}
+.main-manu
+{
+    display: flex;
+    margin: 0%;
+}
+.main-manu li a
+{
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.head-img img
+{
+    height: 75px;
+    padding: 10px 0px;
+}
+.head-icon
+{
+    align-items: center;
+    display: flex;
+}
+.head-icon .tp
+{
+    height: 2px;
+    margin: 5px 0px;
+    width: 28px;
+    background-color: black;
+}
+.mid
+{
+    width: 20px !important;
+}
+.num a 
+{   
+    background-color: #063F84;
+    color: white;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+.num span
+{
+    font-size: 32px;
+}
+/* slider css */
+.image img
+{
+    position: relative;
+}
+.slider-info
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider-heading h2
+{
+    font-size: 65px;
+    font-weight: 700;
+}
+.slider-txt p
+{
+    font-size: 20px;
+}
+.slider-btn a
+{
+    color: white;
+    display: inline-block;
+    background-color: #043577;
+    padding: 20px 50px;
+    font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.corpo
+{
+    background-color: #053B7D;
+}
+.corp-box
+{
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+}
+.corp-ico p
+{
+    font-size: 50px;
+    color: #043577;
+}
+.corp-txt p
+{
+    font-weight: 700;
+    line-height: 20px;
+}
+.corpo
+{
+    padding: 50px 0px;
+}
+.col 
+{
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    margin-bottom: -100px;
+}
+.cor-detail
+{
+    margin-top: 50px;
+}
+.cr-bt a
+{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+.clr 
+{
+    justify-content: end;
+}
+/* section 1 css */
+.ro 
+{
+    justify-content: center;
+}
+.section1 
+{
+    padding: 40px 0px 60px 0px ;
+}
+.bg-img
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.photo 
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.m 
+{
+    justify-content: center;
+}
+.pro-tit h2
+{
+    font-size: 24px;
+    color: #043577;
+    font-weight: 700;
+}
+.pro-tit p
+{
+    font-size: 14px;
+}
+.sio span 
+{
+    font-size: 40px;
+    color: #053B7D;
+}
+.sino h6
+{
+    font-size: 18px;
+}
+.sino p
+{
+    font-size: 14px;
+}
+.get-btn a 
+{
+    color: white;
+    background-color: #043577;
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* section 2 css */
+.sec2
+{
+    padding: 50px 0px;
+    position: relative;
+    background-image: url('./images/5.jpg');
+}
+.s2-disp
+{
+    font-size: 14px;
+}
+.s2-btn a
+{
+    padding: 20px 50px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: .5s;
+} 
+.s2-btn a:hover
+{
+    background-color: #062860;
+    color: white;
+}
+.service
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.se-icon
+{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-color: #043577;
+    border-radius: 5px;
+    font-size: 50px;
+}
+.se-title h4
+{
+    font-size: 17px;
+}
+.se-disp p
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0%;
+}
+/* section 3 */
+.si-title h2
+{
+    color: #043577;
+    font-weight: 700;
+}
+.sec3-top
+{
+    background-color: #DCE8F7;
+    padding-bottom: 50px !important;
+}
+.si1
+{
+    margin-top: -75px;
+}
+.ig-1
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+.ig-1 img
+{
+    position: relative;
+    z-index: 0;
+}
+.team-info
+{
+    position: absolute;
+    top: 60%;
+    left: 11px;
+    padding: 21px;
+    z-index: 0;
+    background-color: #022C68;
+    width: 93%;
+    justify-content: center;
+}
+.status
+{
+    background-color: #FAFAFA;
+    padding: 20px 0px 40px 0px;
+}
+.st-ico
+{
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: #043577;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+}
+.stu-box
+{
+    display: flex;
+    justify-content: center;
+}
+.st-info h3
+{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.st-info p
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* section 4 css */
+.section4
+{
+    padding: 30px 0px 50px 0px;
+}
+.pack 
+{
+    justify-content: center;
+}
+.pack-ico
+{
+    background-color: #043577;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+.pc-title h3
+{
+    color: #063f84;
+    font-weight: 700;
+}
+.pc-disp p
+{
+    font-size: 14px;
+}
+.offer
+{
+    box-shadow: 0px 20px 30px rgba(0,0,0,.15);
+}
+.off-list ul li:not(:last-child) {
+    border-bottom: 0.1rem solid #eee;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.off-list ul
+{
+    font-size: 17px;
+}
+.off-list
+{
+    justify-content: center;
+}
+.off-img 
+{
+    position: relative;
+}
+.off-cap
+{
+    position: absolute;
+    justify-content: center;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cap-info h3
+{
+    font-size: 18px;
+}
+.cap-info p
+{
+    font-size: 14px;
+}
+.cap-ico
+{
+    font-size: 50px;
+}
+/* section 5 css */
+.cus-ico p
+{
+    font-size: 50px;    
+}
+.cus-title p
+{
+    font-size: 16px;
+}
+.comp-img
+{
+    border: 3px solid #f9f9f9;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+}
+/* section 6 css */
+.section6
+{
+    background-color: #FBFBFB;
+}
+.rev-ico 
+{
+    margin: auto;
+    border-radius: 5px;
+    font-size: 50px;
+    background-color: #063f84;
+    height: 100px;
+    width: 100px;
+}
+.rev-title h2
+{
+    font-weight: 700;
+    color: #063f84;
+}
+.rev-title p
+{
+    font-size: 16px;
+}
+.c1-box
+{
+    background-color: white;
+    border-radius: 10px;
+}
+.rev-box p
+{
+    font-size: 18px;
+}
+.rimg 
+{
+    height: 100px;
+    width: 100px;
+}
+.rev-img
+{
+    justify-content: center;
+}
+.r-info p
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+/* section 7 css */
+.section7
+{
+    background-color: #FBFBFB;
+}
+.cir-ico
+{
+    height: 100px;
+    width: 100px;
+    background-color: #062860;
+    font-size: 50px;
+}
+.cir-head
+{
+    justify-content: center;
+}
+.cir-title h2
+{
+    font-weight: 700;
+    color: #063f84;
+}
+.cd1
+{
+    background-color: white;
+}
+.new-info span 
+{
+    font-size: 13px;
+    font-weight: 500;
+}
+.new-info h6
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.new-info p
+{
+    font-size: 13px;
+}
+.new-btn a
+{
+    font-size: 16px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: #043577;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* footer css */
+.footer
+{
+    background-image: url('./images/5.jpg');
+    padding: 40px 0px;
+}
+.ft 
+{
+    display: flex;
+    justify-content: center;
+}
+.fadd p
+{
+    font-size: 14px;
+    margin: 0%;
+}
+.fadd span
+{
+    font-size: 32px;
+    padding: 0px 10px 0px 0px;
+    display: inline-block;
+}
+.fio span
+{
+    padding: 5px 25px 10px 25px;
+    border: 1px solid rgba(255,255,255,.6);
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.fimg
+{
+    height: 70px;
+    width: 200px;
+}
+.fp-inf p
+{
+    font-size: 14px;
+}
+.inp
+{
+    border: none;
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border-bottom: 3px solid #5189e2;
+}
+.email a 
+{
+    display: block;
+    background-color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    border-bottom: 3px solid #5189e2;
+    text-align: center;
+    padding: 20px 0px;
+    color: black;
+}
+.list 
+{
+    list-style-type: square;
+    margin: auto;
+}
+.list a
+{
+    color: white;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.copyright p
+{
+    background-color: #053B7D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+    font-size: 16px;    
+}
+
+
+
+
+/* components css */
+
+/* about */
+.about
+{
+    position: relative;
+}
+.about-inf 
+{
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+.about-inf h2 
+{
+    font-size: 50px;
+}
+.path a 
+{
+    color: white !important;
+}
+.abodta
+{
+    background-color: #043577;
+    padding: 30px 0px 50px 0px ;
+}
+.a1 
+{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.ic-box span
+{
+    margin: auto;
+    border-radius: 5px;
+    background-color: #053B7D;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ic-box p 
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 !important;
 }
